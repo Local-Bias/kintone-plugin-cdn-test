@@ -13,26 +13,17 @@
     "zh": "插件模板"
   },
   "desktop": {
-    "js": [
-      "https://cdn.jsdelivr.net/gh/local-bias/kintone-plugin-cdn-test/cdn/desktop.js",
-      "https://cdn.jsdelivr.net/gh/local-bias/kintone-cdn/dist/desktop.js"
-    ],
+    "js": ["js/desktop.js", "https://cdn.jsdelivr.net/gh/local-bias/kintone-cdn/dist/desktop.js"],
     "css": []
   },
   "mobile": {
-    "js": [
-      "https://cdn.jsdelivr.net/gh/local-bias/kintone-plugin-cdn-test/cdn/desktop.js",
-      "https://cdn.jsdelivr.net/gh/local-bias/kintone-cdn/dist/desktop.js"
-    ],
+    "js": ["js/desktop.js", "https://cdn.jsdelivr.net/gh/local-bias/kintone-cdn/dist/desktop.js"],
     "css": []
   },
   "icon": "image/icon.png",
   "config": {
     "html": "html/config.html",
-    "js": [
-      "https://cdn.jsdelivr.net/gh/local-bias/kintone-plugin-cdn-test/cdn/config.js",
-      "https://cdn.jsdelivr.net/gh/local-bias/kintone-cdn/dist/config.js"
-    ],
+    "js": ["js/config.js", "https://cdn.jsdelivr.net/gh/local-bias/kintone-cdn/dist/config.js"],
     "css": [],
     "required_params": []
   }
